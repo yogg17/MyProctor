@@ -1,30 +1,38 @@
-# MyProctor | Digiral Proctoring System
+# MyProctor | Android-Based Examination Portal
 
-### MyProctor is a digital proctoring system designed for universities
+MyProctor is a mobile application developed in Java for the Android ecosystem. It provides a structured environment for students to access exam materials, submit responses, and interface with academic databases, focusing on a mobile-first approach to digital testing.
 
-## Introduction
+## 🚀 Key Features
 
-A proctor is an officer at universities, appointed annually and having mainly disciplinary functions. Members of the teaching faculty can be appointed as proctors to ensure the welfare of the students. According to the National Crime Record Bureau (NCRB), in 2020,
-Every 42 minutes, a student committed suicide; that is, more than 34 students died by suicide every day. A proctor can ensure their welfare, needs, and mental health on the university campus.
+- **Student Dashboard:** Personalized interface for viewing registered exams and performance history.
+- **Mobile Examination Interface:** Optimized UI for taking quizzes and objective tests on Android devices.
+- **Backend Integration:** Connects to a central database for real-time question retrieval and answer submission.
+- **Automated Grading:** Logic for instant evaluation of objective-type assessments.
 
-## Unique Selling Point (USP)
+## 🛠 Tech Stack
 
-The application is designed to handle a large number of queries sent by the proctor. Firebase helps in scaling the application to a wide range of proctors and students. The application provides peak performance and availability for timely requests. The application ensures that the proctor is available for their allocation students anytime and helps reduce the need to install multiple digital platforms.
+- **Language:** Java (Android)
+- **IDE:** Android Studio
+- **Database:** SQLite (local) / Firebase or MySQL (remote)
+- **Min SDK:** [Specify e.g., API 21: Lollipop]
 
-## Key features
+## 📂 Repository Structure
+```text
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/        # Activities, Adapters, and Data Models
+│   │   │   └── res/         # Layout XMLs and UI assets
+├── build.gradle             # Build configuration
+└── README.md
+```
 
-1. The application has two login stakeholders, namely student and proctor
-2. Students can send short messages of up to 200 characters
-3. The faculty gets a list-based view of the students messages
-4. The faculty gets notified when a student sends a message
+## ⚙️ Setup
 
-## Tech Stack
-
-| Module         | Technology                  |
-| :------------- | :-------------------------- |
-| Frontend       | Android                     |
-| Business Logic | Java                        |
-| Database       | Firebase Real-time database |
+1. Clone the repository.
+2. Open the project in **Android Studio**.
+3. Sync Gradle and build the APK.
+4. Run on an Emulator or a physical Android device.
 
 ## Application Workflow
 
